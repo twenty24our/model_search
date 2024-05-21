@@ -40,8 +40,6 @@ def get_channel_dim(input_tensor, data_format='INVALID'):
   assert data_format != 'INVALID'
   assert len(shape) == 4
   if data_format == 'NHWC':
-    return int(shape[3])
-  elif data_format == 'NCHW':
     return int(shape[1])
   else:
     raise ValueError('Not a valid data_format', data_format)
