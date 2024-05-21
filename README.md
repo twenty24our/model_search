@@ -28,7 +28,7 @@ model architectures.
 Let us start with the simplest case. You have a csv file where the features are numbers
 and you would like to run let AutoML find the best model architecture for you.
 
-Below is a code snippet for doing so:
+Belodoing so:
 
 ```python
 import model_search
