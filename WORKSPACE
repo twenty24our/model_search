@@ -54,6 +54,5 @@ http_archive(
     strip_prefix = "abseil-py-pypi-v0.9.0",
     urls = [
         "https://storage.googleapis.com/mirror.tensorflow.org/github.com/abseil/abseil-py/archive/pypi-v0.9.0.tar.gz",
-        "https://github.com/abseil/abseil-py/archive/pypi-v0.9.0.tar.gz",
     ],
 )
